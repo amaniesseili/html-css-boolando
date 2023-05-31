@@ -115,3 +115,39 @@ ul{
     padding: 10px 15px;
 
 }
+
+
+.x{
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.product-card > .sostinibilita{
+    position:absolute ;
+    bottom: 10px;
+    left: 0;
+    background-color: rgb(61, 25, 206);
+    padding: 5px 10px;
+}
+
+.dis-50{
+    background-color: red;
+    padding: 5px 10px; ;
+    color: white;
+}
+
+.sostenibilita{
+    background-color: rgb(18, 134, 28);
+    padding: 5px 10px;
+    color: white;
+}
+
+.my-favorite{
+    display: none;
+}
+.product-card:hover .my-favorite{
+    display: block;
+}
+
