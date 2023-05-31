@@ -166,3 +166,20 @@ ul{
     top: 0;
     left: 0;
 }
+
+
+footer{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+h5{
+    color: white;
+    padding-top: 10px;
+}
+
+.a-footer{
+    padding: 0;
+    gap: 20px;
+}
