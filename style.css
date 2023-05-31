@@ -82,6 +82,7 @@ ul{
 .product-card{
     background-color: grey;
     height: 500px;
+    position: relative;
 }
 
 .product-card img{
@@ -90,10 +91,18 @@ ul{
     object-fit: cover;
 }
 
-.discount-50{
+.discount-price{
     color: red;
 }
 
 .text-description{
     font-size: 11px;
+}
+
+.product-card > .dis-50{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: red;
+    padding: 5px 10px;
 }
