@@ -26,6 +26,7 @@ header{
 .container-flex{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .menu-bar ul{
@@ -151,3 +152,16 @@ ul{
     display: block;
 }
 
+.sec-img{
+    display: none;
+}
+
+.product-card:hover .sec-img{
+    display: block;
+}
+
+.sec-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
