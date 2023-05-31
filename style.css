@@ -3,18 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color:  rgb(235, 134, 45);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+
+}
 .menu-bar{
     background-color:  rgb(235, 134, 45);
-    min-height: 70px;
+    height: 70px;
 
 }
 .container{
-    width: 100%;
+    max-width: 1000px;
     margin: auto;
 }
 
 .container-flex{
     display: flex;
+    align-items: center;
 
 }
 .menu-bar ul{
@@ -30,16 +40,26 @@ a{
 ul{
     list-style: none;
     justify-content: start;
+    /* align-items: center;  perche nn funziona ? */
 }
 
 .logo{
     height: 30px;
     width: 80px;
     display: inline-block;
+    flex-grow: 1;
+    
     
 
 }
 .container .logo{
     display: flex;
     justify-content: center;
+    
+}
+
+.login{
+    background-color: blanchedalmond;
+    height: 30;
+    width: 60px;
 }
