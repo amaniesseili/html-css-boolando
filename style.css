@@ -6,14 +6,16 @@
 .menu-bar{
     background-color:  rgb(235, 134, 45);
     min-height: 70px;
+
 }
 .container{
-    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
 .container-flex{
     display: flex;
+
 }
 .menu-bar ul{
     display: flex;
@@ -32,10 +34,12 @@ ul{
 
 .logo{
     height: 30px;
-    width: 100px;
+    width: 80px;
     display: inline-block;
-    justify-content: center;
+    
+
 }
-.menu-bar .logo{
+.container .logo{
     display: flex;
+    justify-content: center;
 }
