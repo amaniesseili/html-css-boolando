@@ -89,3 +89,11 @@ ul{
     height: 100%;
     object-fit: cover;
 }
+
+.discount-50{
+    color: red;
+}
+
+.text-description{
+    font-size: 11px;
+}
