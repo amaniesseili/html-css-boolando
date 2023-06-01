@@ -9,24 +9,32 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 
 
 }
 .menu-bar{
     background-color:  rgb(235, 134, 45);
     height: 70px;
+    
+    
 
 }
 .container{
     max-width: 900px;
     width: 100%;
     margin: auto;
+    align-items: center;
 }
 
 .container-flex{
     display: flex;
-    align-items: center;
+    
     flex-wrap: wrap;
+    
 
 }
 .menu-bar ul{
